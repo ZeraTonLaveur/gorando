@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="page.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />  
+    <title>GoRando-contact</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="header-flex">
+                <a href="index.html#voyages">Nos voyages</a>
+                <a href="index.html#prestations">Nos prestations</a>
+                <a href="#"></a> 
+
+                    <div class="logo"></div>
+
+                <a href="index.html#tarifs">Nos tarifs</a>
+                <a href="contact.html">Nous contacter</a>
+            </div>  
+        </nav>
+
+        <nav>
+            <div class="header-flex-mobile">
+
+                <i class="fas fa-bars bars"></i>
+                <div class="logo"></div>
+
+            </div>
+        </nav>
+
+        <nav>
+            <div class="header-flex-mobile-menu">
+                <a href="index.html#voyages">Nos voyages</a>
+                <a href="index.html#prestations">Nos prestations</a>
+            
+                <div class="logo"></div>
+                <i class="fas fa-times cross"></i>
+
+                <a href="index.html#tarifs">Nos tarifs</a>
+                <a href="contact.html">Nous contacter</a>
+            </div>
+        </nav>
+    </header>
+
+    <form class="box">
+
+        <div class="box-text">
+
+            <p>Une demande de devis, une requête spécifique ou <br>simplement une question à nous poser ?</p>
+            <p>Envoyez nous un message et nous vous répondrons au plus <br>vite !</p>
+        
+        </div>
+
+        <div class="box-informations">
+
+            <div class="name-mail">
+
+                <label for="name">Nom et prénom :</label><br>
+                <input type="text" id="name" name="name" placeholder="Votre nom et prénom">
+
+            </div>
+
+            <div class="name-mail">            
+
+                <label for="mail">Adresse mail :</label><br>
+                <input type="email" id="mail" name="mail" placeholder="Votre adresse mail">
+
+            </div>
+
+            <div class="msg">            
+
+                <label for="msg">Votre message :</label><br>
+                <textarea type="text" id="msg" name="msg" placeholder="Votre message"></textarea>
+
+            </div>
+
+        </div>
+
+        <p><button type="submit" value="submit" class="contact-button">Envoyez</button></p>
+        
+    </form>
+    
+
+    <footer>
+        <div class="footer-flex footer-flex-contact">
+            <p class="text-size-7">Conditions générales de vente</p>
+            <p class="text-size-7">mentions légales</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+
+</body>
+</html>
